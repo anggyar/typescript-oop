@@ -1,0 +1,33 @@
+{
+    "name": "typescript-oop",
+    "version": "1.0.0",
+    "description": "Learn how Object Oriented Programming works on TypeScript",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "transform": {
+            "^.+\\.[t|j]sx?$": "babel-jest"
+        }
+    },
+    "keywords": [
+        "typescript",
+        "OOP",
+        "Object",
+        "Oriented",
+        "Programming"
+    ],
+    "author": "Anggyar Muhamad Yahya",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/preset-env": "^7.28.0",
+        "@babel/preset-typescript": "^7.27.1",
+        "@jest/globals": "^30.0.5",
+        "@types/jest": "^30.0.0",
+        "babel-jest": "^30.0.5",
+        "jest": "^30.0.5",
+        "ts-jest": "^29.4.1",
+        "typescript": "^5.9.2"
+    }
+}
